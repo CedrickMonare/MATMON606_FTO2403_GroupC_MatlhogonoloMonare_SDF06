@@ -1,12 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
     <head>
-        <title>Add to Cart</title>
-        <link rel="stylesheet" href="index.css">
+        <title>Shopping List App</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <input type="text" id="input-field" placeholder="Bread">
-        <button id="add-button">Add to cart</button>
-        <script src="index.js"></script>
-    </body>
+
+        <div class="container">
+            <img src="assets/cat.png">
+            <input type="text" id="input-field" placeholder="Bread">
+            <button id="add-button">Add to cart</button>
+            <ul id="shopping-list">
+            <li>Oranges</li>
+            <li>Hotdogs</li>
+            <li>Coca Cola</li>
+            <li>Milk</li>
+            <li> Butter</li>
+            <li>Bread</li>
+            <li>Eggs</li>
+            <li>Candy</li>
+            <li>Shampoo</li>
+            <li>Soap</li>
+        </ul>
+        </div>
+        <script src="functions.js" type="module"></script>
+        <script src="index.js" type="module"></script>
+    </body>  
 </html>
